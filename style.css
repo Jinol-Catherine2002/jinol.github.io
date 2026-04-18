@@ -1,27 +1,28 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: #0f172a;
-    color: white;
+    background: #f8fafc;   /* light background */
+    color: #1e293b;        /* dark text */
 }
 
 header {
     text-align: center;
     padding: 40px;
-    background: #1e293b;
+    background: #e2e8f0;   /* light header */
 }
 
 nav {
     display: flex;
     justify-content: center;
-    background: #334155;
+    background: #cbd5e1;
     padding: 10px;
 }
 
 nav a {
     margin: 0 15px;
-    color: white;
+    color: #1e293b;        /* dark text */
     text-decoration: none;
+    font-weight: bold;
 }
 
 section {
@@ -29,18 +30,19 @@ section {
 }
 
 h2 {
-    border-bottom: 2px solid #38bdf8;
+    border-bottom: 2px solid #2563eb;  /* blue accent */
 }
 
 .card {
-    background: #1e293b;
+    background: #ffffff;   /* white card */
     padding: 20px;
     margin: 15px 0;
     border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background: #1e293b;
+    background: #e2e8f0;
 }
